@@ -24,6 +24,15 @@ body {
     height: 100%;
 }
 
+.inner-grid {
+    display: grid;
+    grid-template-rows: 1 fr 2 fr;
+    background-color: aqua;
+    width: 80%;
+    height: 90%;
+    
+}
+
 .grid-container > div {
     
     text-align: center;
